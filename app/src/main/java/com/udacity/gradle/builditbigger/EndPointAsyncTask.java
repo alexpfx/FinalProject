@@ -42,7 +42,7 @@ public class EndPointAsyncTask extends AsyncTask<Void, Void, String> {
             client = new OkHttpClient();
         }
 
-        String base = "https://api-project-964136514052.appspot.com";
+        String base = "http://10.0.2.2:8080";
         String url = base + "/_ah/api/jokeApi/v1/tellAJoke";
         MediaType jsonMediaType = MediaType.parse("application/json; " +
                 "charset=utf-8");
